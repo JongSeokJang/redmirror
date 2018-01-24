@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+	<meta name="naver-site-verification" content="e1ee205fa87fa84b3326186f7c1f521a7a62e385"/>
+	<meta name="description" content="서강대생이 만든 신촌지역 대학생 미팅 서비스">
+	<!-- Stylesheets
+	============================================= -->
+	<!--ink href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" /-->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/components/ion.rangeslider.css" type="text/css" />
+	<!-- Radio Checkbox Plugin -->
+	<link rel="stylesheet" href="css/components/radio-checkbox.css" type="text/css" />
+	<!--link rel="stylesheet" href="css/components/select-boxes.css" type="text/css" /-->
+
+	<!-- Bootstrap Select CSS -->
+	<link rel="stylesheet" href="css/components/bs-select.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>빨간거울 - 신촌 대학생 미팅</title>
+	<style>
+	.hashtag {
+		border : 0px;
+		border-bottom : 2px solid #DDD !important;
+		padding-left : 5px !important;
+		padding-bottom : 0px !important;
+	}
+	.erros {
+		border-color : #E42C3E !important;
+	}
+
+	.new-form {
+		display: inline-block;
+		width :49% !important;
+
+	}
+
+	.new-form2 {
+		display: inline-block;
+		width :32% !important;
+	}
+			.white-section {
+			background-color: #FFF;
+			padding: 25px 20px;
+			-webkit-box-shadow: 0px 1px 1px 0px #dfdfdf;
+			box-shadow: 0px 1px 1px 0px #dfdfdf;
+			border-radius: 3px;
+		}
+
+	</style>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+	<header id="header" class="full-header nobottomborder">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger">
+						<!--i class="icon-reorder hidden-xs"></i-->
+						<img src="http://ssodam.com/statics/upload/29abfa263b8b11e7976b0242ac110004.png"  width="14px;" style='display : inline !important'>
+						<img src="/img/down_arrow.png" width="12px;" style='display : inline'>
+					</div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="login.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="http://ssodam.com/statics/upload/29abfa263b8b11e7976b0242ac110004.png"  style='display : inline !important'></a>
+						<a href="match.html" class="retina-logo hidden-xs" data-dark-logo="images/logo-dark@2x.png"><img src="http://ssodam.com/statics/upload/29abfa263b8b11e7976b0242ac110004.png"  style='display : inline !important'></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul class='norightmargin' style='border-right : 0px !important;'>
+							<li id='login_menu'><a href="login.html"><div>로그인</div></a></li>
+							<li><a href="match.html"><div>매칭</div></a></li>
+							<li><a href="list.html"><div>내역</div></a></li>
+	</ul>
+
+						<!-- Top Cart
+						============================================= -->
+
+
+
+						<!-- Top Search
+						============================================= -->
+
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- pc화면 -->
+
+
+	<!-- Page Title
+		============================================= -->
+		<section id="page-title" class="page-title-left">
+
+			<div class="container clearfix">
+				<h1>회원가입</h1>
+				<span>개인정보는 매칭이 완료될때까지 </span>
+
+			</div>
+
+		</section>
+
+		<!-- #page-title end -->
+
+	<form method='post' action='users/verify'>
+									<input name ='email'>
+									<button type='submit'><i class="icon-line-arrow-right"></i><span>시작하기</span></a>
+						</form>
+
+		<!-- Content
+		============================================= -->
+		<section id="content2">
+
+			<div class="section nomargin">
+
+				<div class="container clearfix">
+					<div class="col_half">
+  						<form method="post" action="users/verify">
+							<input name="email">
+							<button type="submit">시작하기</button>
+						</form>
+					</div>
+
+					<div class="col_half nobottommargin white-section">
+
+
+						<form id="conditional-form" class="nobottommargin">
+						
+
+							<div class="col_full" id="user_id-wrap" >
+								<label id='user_id_tooltip' for="user_id" data-toggle="tooltip" data-placement="right" title="소속대학의 공식 이메일로만 가입이 가능합니다" >이메일:</label>
+								<input type="email" class="sm-form-control required" id="user_id" name="user" value="" placeholder="email@email.com">
+							</div>
+
+							<!-- 인증번호 보내기
+							<div class="col_full" id="user_pass-wrap" >
+								<div class="button button-3d nomargin" id='user_pass' type="submit">인증메일 발송</div>
+							</div>
+							<div class="col_full" id="form-condition-7-wrap" >
+								<label for="form-condition-7">인증번호</label>
+								<input type="text" class="sm-form-control required" id="form-condition-7" name="form-condition-7" value="" placeholder="인증번호">
+							</div>
+
+							<div class="col_full" id="user_concern-wrap" >
+								<div class="button button-3d nomargin" id='user_concern' type="submit">인증</div>
+							</div>
+							-->
+							<div class="col_full" id="user_pass-wrap"  >
+								<label for="user_pass" style='display : block;'>비밀번호:</label>
+								<input type="password" class="sm-form-control required new-form" id="user_pass" name="user_pass" value="" placeholder="비밀번호">
+								<input type="password" class="sm-form-control required new-form" id="re_user_pass" name="re_user_pass" value="" placeholder="다시입력">
+							</div>
+							
+							
+							
+							<div class="col_full">
+						
+								<!--label for="user_univ visible-xs">시작하시려면..</label-->
+								<label for="user_pass" style='display : block;'>팀 정보:</label>
+
+								<select class="selectpicker new-form2" id="user_univ" name="user_univ">
+									<option value="">소속 대학</option>
+									<option value="서강대학교">서강대</option>
+									<option value="연세대학교">연세대</option>
+									<option value="이화여자대학교">이화여대</option>
+									<option value="홍익대학교">홍익대</option>
+								</select>
+								<select class="selectpicker new-form2" id="user_gender" name="user_gender">
+									<option value="">성별</option>
+									<option value="M">남자</option>
+									<option value="W">여자</option>
+								</select>
+								
+								<select id="user_count" name="user_count" class="selectpicker new-form2">
+									<option value="">멤버수</option>
+									<option value="3" data-subtext="3:3">3명</option>
+								</select>							
+							</div>
+							<div class='col-full' style='margin-bottom : 25px;'>
+								<label>평균 나이 :</label>
+								<input class="range_02" id="user_age" name="user_age">
+							</div>
+							<div class='col-full' style='margin-bottom : 25px;'>
+								<label>키 분포 :</label>
+								<input class="range_19" id="user_concern1" name="user_concern1">
+							</div>
+
+							
+
+							<div class="col_full" id="user_concern-wrap"  >
+								<label style='display :block;'>팀 기타정보 : </label>
+
+								
+								<select class="selectpicker new-form" id="user_concern0" name="user_concern0">
+								<option value=''>학과선택</option>
+									<optgroup label="문과">
+
+										<option value='인문대'>인문대</option>
+										<option value='경영대'>경영대</option>
+										<option value='상경계열'>상경계열</option>
+										<option value='문과'>기타</option>
+									</optgroup>
+									<optgroup label="이과">
+										<option value='자연과학'>자연과학</option>
+										<option value='공학'>공학</option>
+										<option value='이과'>기타
+										</option>
+									</optgroup>
+									<optgroup label="예체능">
+										<option value='음대'>음대</option>
+										<option value='미대'>미대</option>
+										<option value='체대'>체대</option>
+										<option value='예체능'>기타</option>
+									</optgroup>
+									<optgroup label="의학">
+										<option value='의대'>의대</option>
+										<option value='치대'>치대</option>
+										<option value='약대'>약대</option>
+										<option value='간호대'>간호대</option>
+										<option value='의료계'>기타</option>
+									</optgroup>
+									<optgroup label="기타">
+										<option value='생활과학대'>생활과학대</option>
+										<option value='사범대'>사범대</option>
+										<option value='대학원'>대학원</option>
+										<option value='특이한학과'>기타</option>
+									</optgroup>
+
+								</select>
+					
+								<select class="selectpicker new-form" id="user_concern2" name="user_concern2">
+									<option>원하는 미팅스타일</option>
+									<option>Ketchup</option>
+									<option>Relish</option>
+									<option>Onions</option>
+								</select>
+							
+  									
+							</div>
+
+
+
+							<div class="col_full" id="tell-wrap" >
+								<label for="tell">팀 대표자 핸드폰번호 : </label> 
+								
+								<span style="font-size:9px; opacity :0.7">
+							(매칭 완료전까지 절대 노출되지 않으며, 기록 또한 30일내에 삭제됩니다)
+							</span>
+								<div>
+								<input type="number" class="sm-form-control required new-form2" id="tell0" name="tell" value="010" placeholder="" maxlength='4' pattern="\d*"/>
+								<input type="number" class="sm-form-control required new-form2" id="tell1" name="tell" value="" placeholder="" maxlength='4' pattern="\d*"/>
+								<input type="number" class="sm-form-control required new-form2" id="tell2" name="tell" value="" placeholder="" maxlength='4' minlength='4' pattern="\d*"/>
+								</div>
+								<!--input style="width: 31%;" type="text" id="tell0" maxlength="4" class="number" name="tell">-
+								<input style="width: 31%;" type="text" id="tell1" maxlength="4" class="number" name="tell">-
+								<input style="width: 31%;" type="text" id="tell2" maxlength="4pm" class="number" name="tell"-->
+							</div>
+
+								
+
+							
+							<div class="col_full" id="btn_add-wrap"  >
+								<!--<button id='btn_add' onclick="AddUser()" class="button button-3d nomargin">시작하기</button> -->
+								해당 가입 메일로 시간 내에 인증 요청 메일이 갈 예정입니다. 메일 도착 후 48시간내에 인증이 없다면 계정이 삭
+								<div class="section center nomargin" style="padding: 30px;">
+									<a href='#myModal' data-lightbox="inline" type="button" class="button button-3d nomargin">시작하기</a>
+								</div>
+							</div>
+							
+								
+						
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+
+		<div class="modal1 mfp-hide" id="myModal">
+			<div class="block divcenter" style="background-color: #FFF; max-width: 500px;">
+				<div style="padding: 50px;">
+					<h3>도움말</h3>
+					<p class="nobottommargin">이용약관 및 개인정보 취급방침에 동의합니다. </p>
+					<input type="button" id='btn_add' value="시작하기" class="button button-3d nomargin">
+				</div>
+			</div>
+		</div>
+		<!--  소개페이지 -->
+		
+		<!--div style="position:fixed;overflow-y:visible;bottom:0px;width:100%;background-color:#fff;height:50px;text-align:center;z-index:1000;border-top:1px solid #f2f2f2; display:none;" id='infomessage1'>
+		<center>
+
+		            <div class="style-msg" style="background-color: #EEE;">
+									<div class="sb-msg"><i class="icon-info-sign"></i>오래걸리지 않아요. 벌써 반이나 했는걸요</div>
+					</div>
+
+		</center>
+		</div>
+		<div style="position:fixed;overflow-y:visible;bottom:0px;width:100%;background-color:#fff;height:70px;text-align:center;z-index:1000;border-top:1px solid #f2f2f2; display:none;" id='infomessage2' data-animate='shake'>
+		<center>
+
+		            <div class="style-msg" style="background-color: #EEE;">
+									<div class="sb-msg"><i class="icon-info-sign"></i>해쉬태그에는 학과, 매력포인트, 미팅컨셉 등 팀을 어필할만한 내용을 적어주세요. 센스있게 적을수록 매칭률이 높아집니다.</div>
+								</div>
+
+		</center>
+		</div-->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						<!--img src="images/footer-logo.png" alt="Footer Logo" class="footer-logo"-->
+
+						Copyrights &copy; 2017 All Rights Reserved by Redmirror Inc.
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="copyrights-menu copyright-links fright clearfix">
+							<a href="#">Home</a>/<a href="#">About</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+						</div>
+						<div class="fright clearfix">
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+
+	</div><!-- #wrapper end -->
+
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+<script>
+/* 툴팁, 팝오버 함수 */
+	$('#user_concern2').focus(function() { 
+		$('#hash_popover').popover('hide');
+	});
+	$('#user_id').focus(function(){
+		$('#user_id_tooltip').tooltip('show');
+	});
+	$('#user_pass').focus(function(){
+		$('#user_id_tooltip').tooltip('hide');
+	});
+	$('#user_concern0').focus(function() { 
+		$('#hash_popover').popover('show');
+	});
+</script>
+
+
+<script>
+/* 핸드폰 번호 다음걸로 바로 넘어가는 함수 */
+$(document).ready(function(){
+    $('input').keyup(function(){
+        if($(this).val().length==$(this).attr("maxlength")){
+            $(this).next().focus();
+        }
+    });
+});
+</script>
+
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/login.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script>
+	var user_id = getCookie("user_id");
+	var userNum = getCookie("user_num");
+	var requestNum
+
+	// var user_id = "test"
+	// var userNum = 16
+
+	// 로그인 쿠키가 있다면 가입이 아닌 main으로 이동시키기.
+	//$(document).ready(function(){
+	//	if( userNum > 0 ){
+    //        location.href = 'match.html';
+    //    }
+	//	$(document).on("click", "#queue_start", StartQueue)
+	//	default_show()
+	// })
+
+		jQuery(document).ready( function($){
+			var conditionValidator = $("#conditional-form").validate({
+				rules: {
+					'user_pass': {
+						required: true,
+						minlength: 4
+					},
+					'tell2': {
+						required: true,
+						minlength: 4
+					}
+				}
+			});
+
+			$('#re_user_pass').bind('input propertychange', function() {
+				if( conditionValidator.element( "#re_user_pass" ) === true && $('#re_user_pass').val() == $('#user_pass').val() ) {  
+					var element = document.getElementById("re_user_pass");
+					element.classList.remove("erros");
+				} else {
+					var element = document.getElementById("re_user_pass");
+					element.classList.add("erros");
+				}
+			});
+
+		});
+
+	</script>
+
+	<!-- Bootstrap Select Plugin -->
+	<script type="text/javascript" src="js/components/bs-select.js"></script>
+
+	<!-- Select Splitter Plugin -->
+	<script type="text/javascript" src="js/components/selectsplitter.js"></script>
+
+
+	<script type="text/javascript">
+		$('.selectsplitter').selectsplitter();
+	</script>
+	<script>
+	$('.popover_html').popover({ html : true});
+	</script>
+	<script>
+	$(document).ready(function(){
+		$(document).on("click", "#btn_add", AddUser);
+	})
+	function strlen(str) { return str.length; }
+
+	function verify(){
+		var 
+
+		$.ajax({
+			url     : 'http://13.124.15.208:9000/users/verify',
+			//url  :'http://ec2-13-124-98-159.ap-northeast-2.compute.amazonaws.com:9000/users',
+			dataType: "json",
+			type: "GET",
+			cache: true,
+			jsonp: true,
+			jsonpCallback: "",
+			data : {
+				userId 		: userId
+			},
+			error: function() {
+				alert("잠시 후 다시 시도해주세요.");
+			}
+		}); 
+
+	}
+
+
+	function AddUser(){
+
+		// 키 값 반환
+		$('#user_concern1').val($('#user_concern1').val() + 'cm');
+		$('#user_concern1').val(function(index, value) {
+		   return value.replace(';', '-');
+		});		
+		var userUniv 	= $("#user_univ").val();
+ 		var userGender 	= $('#user_gender').val();
+		var userCount 	= $("#user_count").val();
+		var userAge 	= $("#user_age").val();
+		var userId 		= $("#user_id").val();
+		var userPass  	= $("#user_pass").val();
+		var re_userPass = $("#re_user_pass").val();
+		var userPhone 	= $("#tell0").val() + '-' + $("#tell1").val() + '-' + $("#tell2").val();
+		var userConcern0 = $("#user_concern0").val();
+		var userConcern1 = $("#user_concern1").val();
+		var userConcern2 = $("#user_concern2").val();
+
+
+
+		var userConcern = '#' + $("#user_concern0").val() + '  #' + $("#user_concern1").val() + ' #' + $("#user_concern2").val();
+
+
+  if (strlen(userId) < 1) {
+            alert("이메일을 입력해주세요");
+            return
+        }
+        else if (strlen(userPass) < 1) {
+           	alert("비밀번호를 입력해주세요");
+            return
+        }
+        else if (strlen(re_userPass) < 1) {
+           	alert("재비밀번호를 입력해주세요");
+            return
+        }
+        else if (strlen(userUniv) < 1) {
+           	alert("학교를 입력해주세요");
+            return
+        }
+        else if (strlen(userGender) < 1) {
+           	alert("성별을 입력해주세요");
+            return
+        }
+        else if (strlen(userCount) < 1) {
+            alert("인원수를 입력해주세요");
+            return
+        }
+        else if (strlen(userAge) < 1) {
+            alert("팀 나이를 입력해주세요");
+            return
+        }
+        else if (strlen(userConcern0) < 1) {
+            alert("학과를 입력해주세요");
+            return
+        }
+        else if (strlen(userConcern1) < 1) {
+            alert("외모 장점을 입력해주세요");
+            return
+        }
+        else if (strlen(userConcern2) < 1) {
+            alert("성격 장점을 입력해주세요");
+            return
+        }
+        else if ((userUniv == "서강대학교") && (userId.indexOf("@sogang.ac.kr") == -1)  ){
+        	alert("서강대 공식 메일(@sogang.ac.kr)을 입력해주세요");
+            return
+	    }
+	    else if ((userUniv == "연세대학교") && (userId.indexOf("@yonsei.ac.kr") == -1)  ){
+        	alert("연세대 공식 메일(@yonsei.ac.kr)을 입력해주세요");
+            return
+	    }
+        else if ((userUniv == "이화여자대학교") && (userId.indexOf("@ewha.ac.kr") == -1)  ){
+        	alert("이화여대 공식 메일(@ewha.ac.kr)을 입력해주세요");
+            return
+	    }
+        else if ((userUniv == "홍익대학교") && (userId.indexOf("@hongik.ac.kr") == -1)  ){
+        	alert("홍익대 공식 메일(@hongik.ac.kr)을 입력해주세요");
+            return
+	    }
+
+
+	
+		$.ajax({
+			url     : 'http://13.124.15.208:9000/users',
+			//url  :'http://ec2-13-124-98-159.ap-northeast-2.compute.amazonaws.com:9000/users',
+			dataType: "json",
+			type: "GET",
+			cache: true,
+			jsonp: true,
+			jsonpCallback: "",
+			data : {
+				userId 		: userId
+			},
+			success: function(data){
+
+				if(data.type == 1){
+					$.ajax({
+						url     : 'http://13.124.15.208:9000/users',
+						//url  :'http://ec2-13-124-98-159.ap-northeast-2.compute.amazonaws.com:9000/users',
+						dataType: "json",
+						type: "POST",
+						cache: true,
+						jsonp: true,
+						jsonpCallback: "",
+						data : {
+							userUniv 	: userUniv,
+							userGender 	: userGender,
+							userCount 	: userCount,
+							userAge 	: userAge,
+							userId 		: userId,
+							userPass 	: userPass,
+							userPhone 	: userPhone,
+							userConcern : userConcern
+						},
+						success: function(data){
+							console.log(data)
+							if(data.type == 1)
+								alert("계정이 생성되었어요. 매칭큐를 돌려보세요")
+
+								setCookie("user_id", 	data.content.user_id,1);
+								setCookie("user_num", 	data.content.user_num,1);
+								location.href = 'match.html';
+						},
+						error: function() {
+							alert("버그가 생겼어요. 잠시 후 다시 시도해주세요.");
+						}
+					});
+				}
+				else if(data.type == 2){
+					alert("미안해요. 이미 등록된 계정이에요.")
+				}
+				else{
+
+				}
+
+			},
+			error: function() {
+				alert("잠시 후 다시 시도해주세요.");
+			}
+		}); 
+
+	}
+
+
+
+
+
+	/*
+    // 우편번호 찾기 화면을 넣을 element
+    var element_layer = document.getElementById('layer');
+
+    function closeDaumPostcode() {
+        // iframe을 넣은 element를 안보이게 한다.
+        element_layer.style.display = 'none';
+    }
+
+    function sample2_execDaumPostcode() {
+        new daum.Postcode({
+            oncomplete: function(data) {
+                // 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+                // 각 주소의 노출 규칙에 따라 주소를 조합한다.
+                // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                var fullAddr = data.address; // 최종 주소 변수
+                var extraAddr = ''; // 조합형 주소 변수
+
+                // 기본 주소가 도로명 타입일때 조합한다.
+                if(data.addressType === 'R'){
+                    //법정동명이 있을 경우 추가한다.
+                    if(data.bname !== ''){
+                        extraAddr += data.bname;
+                    }
+                    // 건물명이 있을 경우 추가한다.
+                    if(data.buildingName !== ''){
+                        extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+                    }
+                    // 조합형주소의 유무에 따라 양쪽에 괄호를 추가하여 최종 주소를 만든다.
+                    fullAddr += (extraAddr !== '' ? ' ('+ extraAddr +')' : '');
+                }
+
+                // 우편번호와 주소 정보를 해당 필드에 넣는다.
+                // document.getElementById('sample2_postcode').value = data.zonecode; //5자리 새우편번호 사용
+                document.getElementById('sample2_postcode').value = data.postcode; //구우편번호
+                document.getElementById('sample2_address').value = fullAddr;
+                document.getElementById('sample2_address2').value = data.jibunAddress;
+                // document.getElementById('sample2_addressEnglish').value = data.addressEnglish;
+
+                 document.getElementById('sample2_address3').focus();
+
+                // iframe을 넣은 element를 안보이게 한다.
+                // (autoClose:false 기능을 이용한다면, 아래 코드를 제거해야 화면에서 사라지지 않는다.)
+                element_layer.style.display = 'none';
+            },
+            width : '100%',
+            height : '100%'
+        }).embed(element_layer);
+
+        // iframe을 넣은 element를 보이게 한다.
+        element_layer.style.display = 'block';
+
+        // iframe을 넣은 element의 위치를 화면의 가운데로 이동시킨다.
+        initLayerPosition();
+    }
+
+    // 브라우저의 크기 변경에 따라 레이어를 가운데로 이동시키고자 하실때에는
+    // resize이벤트나, orientationchange이벤트를 이용하여 값이 변경될때마다 아래 함수를 실행 시켜 주시거나,
+    // 직접 element_layer의 top,left값을 수정해 주시면 됩니다.
+    function initLayerPosition(){
+        var width = 500; //우편번호서비스가 들어갈 element의 width
+        var height = 500; //우편번호서비스가 들어갈 element의 height
+        var borderWidth = 0; //샘플에서 사용하는 border의 두께
+
+        // 위에서 선언한 값들을 실제 element에 넣는다.
+        element_layer.style.width = width + 'px';
+        element_layer.style.height = height + 'px';
+        element_layer.style.border = borderWidth + 'px solid';
+        // 실행되는 순간의 화면 너비와 높이 값을 가져와서 중앙에 뜰 수 있도록 위치를 계산한다.
+        element_layer.style.left = (((window.innerWidth || document.documentElement.clientWidth) - width)/2 - borderWidth) + 'px';
+        element_layer.style.top = (((window.innerHeight || document.documentElement.clientHeight) - height)/2 - borderWidth) + 'px';
+    }
+		*/
+
+	/*
+		$(function() {
+		  $('.number_only').on('keydown', '.number', function(e){-1!==$.inArray(e.keyCode,[46,8,9,27,13,110,190])||/65|67|86|88/.test(e.keyCode)&&(!0===e.ctrlKey||!0===e.metaKey)||35<=e.keyCode&&40>=e.keyCode||(e.shiftKey||48>e.keyCode||57<e.keyCode)&&(96>e.keyCode||105<e.keyCode)&&e.preventDefault()});
+		})
+		$(document).ready(function(){
+				login_check();
+		    $("aside #user li:eq(0) a").css({'font-weight':'bold','background':'#eee'});
+		    $("aside #user li:eq(0) a").prepend('<span>'+ '▶' +'</span>');
+		});
+		$(document).ready(function(){
+				$(document).on("click", "#btn_add", add_user);
+				$(document).on("click", "#id_check", id_check);
+				$(':input[type="radio"]').click(function () {
+					if ($(':radio[name="user_type"]:checked').val() == 'B') {
+						$('.tell_num th').text('휴대전화');
+						$('.enterprise').hide();
+					}else{
+						$('.tell_num th').text('전화번호');
+						$('.enterprise').show();
+					}
+				});
+		});
+
+		function add_user(){
+			var user_name = $("#user_name").val();
+			var user_id = $("#user_id").val();
+			var first_pass 	= $("#password").val();
+			var second_pass = $("#re_password").val();
+			var tmp = $("#id_check_confirm").val();
+			// alert(first_pass);
+			if(user_name === "")
+				alert("이름/병의원명을 입력해주세요.");
+			else if(user_id === "")
+				alert("아이디를 입력하세요.");
+			else if(tmp === "0")
+				alert("아이디 중복여부를 확인해주세요.");
+			else if (user_id != $('#re_user_id').val())
+				alert("아이디 중복여부를 확인해주세요.")
+			else if(first_pass == "")
+				alert("비밀번호를 입력해주세요.");
+			else if(first_pass != second_pass){
+				alert("비밀번호가 일치하지 않습니다.");
+			}else if ($('#tell0').val() == '' || $('#tell1').val() == '' || $('#tell2').val() == '') {
+				alert('전화번호를 입력해주세요.')
+			}else if ($('#sample2_postcode').val() == '') {
+				alert('우편번호를 입력해주세요.')
+			}
+			else{
+				$.ajax({
+					dataType: "json",
+					contentType:"application/json",
+					cache: true,
+					jsonp: true,
+					type: 'post' ,
+					url: 'https://b8ax8j2bn7.execute-api.ap-northeast-2.amazonaws.com/biopama/web/users' ,
+					data: JSON.stringify({
+						user_type : $(':radio[name="user_type"]:checked').val(),
+						user_name :$('#user_name').val(),
+						user_id :$('#user_id').val(),
+						user_pass :$('#password').val(),
+						phone_num1 : $('#tell0').val() + $('#tell1').val() + $('#tell2').val(),
+						post_num : $('#sample2_postcode').val(),
+						address : $('#sample2_address2').val() + $('#sample2_address3').val(),
+						delivery1 : $('#g_enterprise option:selected').val(),
+						delivery2 : $('#m_enterprise option:selected').val()
+					}),
+					success: function(data) {
+						alert('추가 완료 되었습니다.')
+						location.href = 'user_add.html'; // refresh 를 위해서
+					},
+					error : function(xhr, status, error){
+						alert("잠시 후 다시 시도해주세요.");
+					}
+				});
+			}
+		}
+
+		function id_check(){ // 중복확인 하는 부분.
+			user_id = $("#user_id").val();
+			$('#re_user_id').val(user_id);
+			// alert(user_id);
+			if(user_id != ""){
+				$.ajax({
+					url  :'https://b8ax8j2bn7.execute-api.ap-northeast-2.amazonaws.com/biopama/web/id-check',
+						dataType: "json",
+						type: "GET",
+						cache: true,
+						jsonp: true,
+						jsonpCallback: "",
+						data : {
+							user_info : user_id
+						},
+					 success: function(data){
+						 data = JSON.parse(data);
+						 console.log(data.result);
+						 if(data.result === "1"){
+						 		alert("해당 아이디는 사용 가능 합니다.");
+								$("#id_check_confirm").val("1");
+						 }else {
+							 	alert("다른 아이디를 입력해주세요.");
+						 		$("#user_id").val("");
+						 }
+					 },
+					 error: function() {
+								alert("잠시 후 다시 시도해주세요.");
+					 }
+				});
+			}else{
+				alert("아이디를 입력해주세요.");
+			}
+		}
+		*/
+	</script>
+
+
+	<!-- Range Slider Plugin -->
+	<script type="text/javascript" src="js/components/rangeslider.min.js"></script>
+	<script type="text/javascript" src="js/components/moment.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			$(".range_02").ionRangeSlider({
+				min: 20,
+				max: 30,
+				from: 25
+
+			});
+			$(".range_03").ionRangeSlider({
+				type: "double",
+				prefix: "$",
+				min: 0,
+				max: 1000,
+				from: 200,
+				to: 800,
+			});
+					$(".range_17").ionRangeSlider({
+				type: "double",
+				grid: true,
+				min: 150,
+				max: 190,
+				from: 160,
+				to: 175,
+				postfix: " cm",
+				decorate_both: false
+			});
+
+			$(".range_19").ionRangeSlider({
+				type: "double",
+				min: 150,
+				max: 190,
+				from: 160,
+				to: 175,
+				postfix: " cm",
+				decorate_both: false,
+				values_separator: " - "
+			});
+
+
+		});
+
+	</script>
+
+
+</body>
+</html>
